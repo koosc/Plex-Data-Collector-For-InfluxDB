@@ -9,4 +9,4 @@ ADD plexInfluxdbCollector.py .
 #Set default environment values
 ENV INFLUXDB_SERVER=localhost INFLUXDB_PORT=8096 PLEX_SERVER=localhost DATABASE=default 
 
-CMD startup.sh
+CMD ./startup.sh
