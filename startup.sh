@@ -12,5 +12,7 @@ sed -i -e 's/PLEX_SERVER/'"${PLEX_SERVER}"'/g' ./config.ini
 sed -i -e 's/INFLUXDB_PORT/'"${INFLUXDB_PORT}"'/g' ./config.ini
 sed -i -e 's/DATABASE/'"${DATABASE}"'/g' ./config.ini
 sed -i -e 's/INFLUXDB_SERVER/'"${INFLUXDB_SERVER}"'/g' ./config.ini
+sed -i -e 's/PLEX_PASSWORD/'"${PLEX_PASSWORD}"'/g' ./config.ini
+sed -i -e 's/PLEX_USERNAME/'"${PLEX_USERNAME}"'/g' ./config.ini
 
 python plexInfluxdbCollector.py
